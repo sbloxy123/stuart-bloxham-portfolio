@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./MiniProjectCard.module.css";
 import { FaGithub } from "react-icons/fa";
 
@@ -15,13 +15,28 @@ const MiniProjectCard = ({
   link,
 }) => {
   const [showGif, setShowGif] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const handleClick = () => {
-    setShowGif((prevShowGif) => !prevShowGif); //prevState function here
+    setShowGif((prevShowGif) => !prevShowGif);
   };
   const handleClickToEscape = (e, title) => {
     e.target.alt !== title && handleClick();
   };
+
+  //choose the screen size
+  const handleResize = () => {
+    if (window.innerWidth < 570) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
+
+  // create an event listener
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
   return (
     <div className={styles.project_card}>
       <div className={styles.img_container}>
@@ -56,9 +71,15 @@ const MiniProjectCard = ({
             alt={title}
             className={`${styles.project_img}`}
           />
-          <button className={styles.play_btn} onClick={handleClick}>
-            ▶
-          </button>
+          {!isMobile && !showGif ? (
+            <button className={styles.play_btn} onClick={handleClick}>
+              ▶
+            </button>
+          ) : (
+            <button className={styles.exit_btn} onClick={handleClick}>
+              ⏹
+            </button>
+          )}
         </div>
       </div>
 

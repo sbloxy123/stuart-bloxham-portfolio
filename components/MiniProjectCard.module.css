@@ -130,10 +130,15 @@
 }
 @media screen and (max-width: 570px) {
   .full_screen {
-    left: 0%;
+    display: none;
   }
   .full_screen_video {
-    width: 100%;
-    height: fit-content;
+    display: none;
   }
+  .full_screen_focus {
+    display: none;
+  }
+  /* .play_btn {
+    display: none;
+  } */
 }
