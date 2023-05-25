@@ -1,0 +1,21 @@
+/* .section {
+  background-color: #eaf2d7;
+} */
+
+.mini_projects {
+  margin-top: 20px;
+  height: fit-content;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.mini_projects > h2 {
+  margin-top: 50px;
+}
+
+.project_collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 40px;
+}

@@ -1,0 +1,130 @@
+.project_container {
+  position: relative;
+  margin-bottom: 100px;
+}
+.project_screenshot {
+  width: 600px;
+  height: 360px;
+  margin: 50px 0px 0px 100px;
+  box-shadow: 5px 5px 5px #ccc;
+  position: relative;
+  z-index: 1;
+}
+
+.project_details {
+  width: 600px;
+  min-height: 360px;
+  background-color: rgba(103, 97, 97, 0.9);
+  color: white;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 5px #ccc;
+  z-index: 2;
+  position: absolute;
+  top: 35%;
+  left: 47%;
+}
+
+.project_text {
+  padding: 10px 20px;
+}
+
+.project_text p {
+  padding: 15px 0px 5px 0px;
+  width: 450px;
+}
+.project_text h5 {
+  padding-bottom: 10px;
+}
+.project_links {
+  background-color: rgba(80, 77, 77, 100);
+  min-height: 100%;
+  width: 20%;
+  display: flex;
+}
+.project_icons {
+  list-style: none;
+  /* width: 50%; */
+  padding: 0px;
+  margin: auto auto 0px auto;
+  padding-bottom: 25px;
+}
+.project_icons > li {
+  width: fit-content;
+  margin: auto;
+}
+.project_icons > li > a {
+  font-size: 2em;
+  color: white;
+}
+
+@media screen and (max-width: 1400px) {
+  .project_screenshot {
+    margin-left: 0px;
+  }
+  .project_details {
+    left: 38%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project_screenshot {
+    width: 90%;
+    height: fit-content;
+    box-shadow: none;
+    margin: 0 auto;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
+  }
+  .project_details {
+    width: 90%;
+    height: fit-content;
+    color: white;
+    position: relative;
+    box-shadow: none;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    display: block;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
+  }
+  .project_text {
+    padding: 10px;
+    padding-top: 15px;
+  }
+
+  .project_text h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .project_text p {
+    padding: 15px 0px 5px 0px;
+    width: fit-content;
+  }
+
+  /* links */
+  .project_links {
+    background-color: rgba(80, 77, 77, 100);
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    box-shadow: 0 0 3px #ccc;
+  }
+
+  .project_icons {
+    list-style: none;
+    padding-bottom: 0px;
+  }
+  .project_icons > li {
+    display: inline-block;
+    padding: 15px;
+  }
+}

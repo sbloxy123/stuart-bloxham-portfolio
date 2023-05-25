@@ -1,0 +1,193 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Materialised",
+      "screenshot": "/images/materialised.png",
+      "link": "https://www.materialised.shop/",
+      "summary_html": "Final fullstack project built at Le Wagon with 3 other students. I pitched the idea, led the project and presented the product at the end of the course while collaborating through <strong>Github</strong> and <strong>Slack</strong>.",
+      "tech_used": [
+        "HTML, CSS, Bootstrap",
+        "Ruby on Rails",
+        "PostgreSQL",
+        "Javascript & StimulusJS",
+        "API integration (Mapbox & Stripe)"
+      ],
+      "code_links": [
+        {
+          "icon": "FaYoutube",
+          "url": "https://www.youtube.com/watch?v=O-verHIhV88"
+        },
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/aijesEpK6OLA5Nu1uZ6ijM/Materialised?node-id=0%3A1&t=jOjBXwPQIhCaNOzK-1"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/materialised"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://www.materialised.shop/"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Bloxy Web Services",
+      "screenshot": "/images/bloxy.png",
+      "link": "https://www.bloxywebservices.co.uk/",
+      "summary_html": "My personal website which I built before starting at Le Wagon.",
+      "tech_used": [
+        "HTML, CSS, Bootstrap",
+        "GatsbyJS (React framework)",
+        "Font Awesome",
+        "Google Analytics",
+        "Responsive CSS",
+        "Hosted on Netlify"
+      ],
+      "code_links": [
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/avWmzwYv5EyhhBkxX4RsgY/My-Portfolio-Site?node-id=0%3A1&t=UscVUeTL5Ll7HiAK-1"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/my-portfolio-code"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://www.bloxywebservices.co.uk/"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bryan Johnston Cichlids",
+      "screenshot": "/images/bryan.png",
+      "link": "https://suspicious-visvesvaraya-d96526.netlify.app/",
+      "summary_html": "My client, Bryan wanted a place to showcase his unique fish to his customers, alongside his social media accounts and needed to manage the content himself",
+      "tech_used": [
+        "HTML, CSS, Bootstrap",
+        "GatsbyJS (React framework)",
+        "Strapi CMS & Instagram API",
+        "GraphQL",
+        "Responsive CSS",
+        "Website hosted on Netlify, Strapi hosted on Heroku"
+      ],
+      "code_links": [
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/nZe4mkzKhM9pwgk8guV7VC/Bryan-Johnston-wireframe?node-id=3%3A3&t=0D2VJb8zn6XcLJZP-1"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/bjc-wed-030320"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://suspicious-visvesvaraya-d96526.netlify.app/"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Lace & Blossom",
+      "screenshot": "/images/lace.png",
+      "link": "https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/",
+      "summary_html": "A website to showcase a variety Lace & Blossom’s gift products.",
+      "tech_used": [
+        "HTML, CSS, Bootstrap",
+        "GatsbyJS (React framework)",
+        "Strapi CMS",
+        "GraphQL",
+        "Font Awesome",
+        "Responsive CSS",
+        "Website hosted on Netlify, Strapi hosted on Heroku"
+      ],
+      "code_links": [
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/JRZaf5bBxs85TKsidP99er/Untitled?node-id=0%3A1&t=apd5B3Uyt08hCwga-1"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/lace-and-blossom"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/"
+        }
+      ]
+    }
+  ],
+  "miniProjects": [
+    {
+      "id": 1,
+      "title": "Tic Tac Toe",
+      "img": "/images/mini-project-images/tic-tac-toe.png",
+      "gif": "/images/mini-project-images/tic-tac-toe.gif",
+      "stack": ["React", "Vanilla JS"],
+      "task": "Improve existing game",
+      "task_breakdown": [
+        "Update the app so that it highlights the winning move",
+        "Update the app so that it allows for a named player X and Y, and it keeps a league table of who won each game"
+      ],
+      "link": "https://github.com/sbloxy123/react-tic-tac-toe"
+    },
+    {
+      "id": 2,
+      "title": "DOM Manipulation",
+      "img": "/images/mini-project-images/dom-manipulation.png",
+      "gif": "/images/mini-project-images/dom-manipulation.gif",
+      "stack": ["Vanilla JS"],
+      "task": "Add ‘call-to-action’ to existing Amazon Product",
+      "task_breakdown": [
+        "Write a script that adds a fixed “add to basket/quantity” section",
+        "CTA hides when the original “Add to basket” button becomes visible",
+        "The new “Add to basket” button should add the exact selected quantity"
+      ],
+      "link": "https://github.com/sbloxy123/CRO-challenge-take-2"
+    },
+    {
+      "id": 3,
+      "title": "Recipe Finder",
+      "img": "/images/mini-project-images/recipe-finder.png",
+      "gif": "/images/mini-project-images/recipe-finder.gif",
+      "stack": ["Vanilla JS"],
+      "task": "Allow users to search for recipes from Api",
+      "task_breakdown": [
+        "Fetch data from Api",
+        "Present recipes and present with an embedded Youtube video",
+        "Remove previous results when user enters a new search"
+      ],
+      "link": "https://github.com/sbloxy123/meal-api"
+    },
+
+    {
+      "id": 4,
+      "title": "Basic to-do app",
+      "img": "/images/mini-project-images/js-todo.png",
+      "gif": "/images/mini-project-images/js-todo.gif",
+      "stack": ["Vanilla JS"],
+      "task": "Build a simple to-do app",
+      "task_breakdown": [
+        "Include all CRUD (create, read, update, delete) operations"
+      ],
+      "link": "https://github.com/sbloxy123/to-do-list-vanilla-javascript"
+    },
+    {
+      "id": 5,
+      "title": "Star Rating",
+      "img": "/images/mini-project-images/star-rating.png",
+      "gif": "/images/mini-project-images/star-rating.gif",
+      "stack": ["Vanilla JS"],
+      "task": "Build a simple, interactive 5 star-rating toggle",
+      "task_breakdown": [
+        "User can click on any star to give a rating between 1 & 5",
+        "User can reduce their rating and the highlighted stars will react accordingly"
+      ],
+      "link": "https://github.com/sbloxy123/star-rating"
+    }
+  ]
+}

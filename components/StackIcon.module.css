@@ -1,0 +1,11 @@
+.stack_icon {
+  width: 20%;
+  height: auto;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+@media screen and (max-width: 1000px) {
+  .stack_icon {
+    width: 25%;
+  }
+}

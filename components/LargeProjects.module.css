@@ -1,0 +1,11 @@
+.section {
+  height: fit-content;
+  background-color: #eaf2d7;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    padding-bottom: 40px;
+  }
+}

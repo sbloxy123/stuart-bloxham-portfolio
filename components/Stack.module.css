@@ -1,0 +1,28 @@
+.section_heading {
+  font-family: "Lobster", cursive;
+  margin-top: 50px;
+}
+.stack_section {
+  background-color: #fcfcf9;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.stack {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  gap: 20px 30px;
+}
+@media screen and (max-width: 1000px) {
+  .section-heading {
+    padding-bottom: 20px;
+  }
+  .stack {
+    width: 75%;
+    gap: 18px 20px;
+  }
+}
