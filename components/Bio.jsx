@@ -21,7 +21,7 @@ const Bio = () => {
         </p>
         <p>
           At Le Wagon, I learned a multitude of
-          <strong> Full Stack</strong> disciplines such as{" "}
+          <strong> Full Stack</strong> disciplines such as
           <strong>
             Git workflows, Ruby & Ruby on Rails, Databases, Design systems,
             Javascript & working with APIs
@@ -38,7 +38,7 @@ const Bio = () => {
           in the field and build a successful career.
         </p>
         <p>
-          I&lsquo;m currently learning <strong>Next.js and Typescript</strong>{" "}
+          I&lsquo;m currently learning <strong>Next.js and Typescript</strong>
           whilst keeping an eye on <strong> Remix & Svelte</strong> which I feel
           could be valuable frameworks to have under my belt.
         </p>
