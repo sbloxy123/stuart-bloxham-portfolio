@@ -59,10 +59,25 @@
   width: 100vw;
   height: 200px;
 }
-
 .built_with {
   margin: 15px 20px 0px auto;
   width: fit-content;
+}
+.built_with > p {
+  margin-bottom: 0;
+}
+.built_with > a {
+  text-decoration: none;
+}
+.built_with > a > svg {
+  height: fit-content;
+}
+.portfolio_code {
+  display: flex;
+  align-items: center;
+}
+.portfolio_code > p {
+  margin: 0 0 0 5px;
 }
 
 /* =========== */

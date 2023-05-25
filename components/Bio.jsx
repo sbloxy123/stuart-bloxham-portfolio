@@ -16,18 +16,18 @@ const Bio = () => {
           Hi, I&lsquo;m Stuart, a Junior Fullstack Developer based in
           Hertfordshire with over 7 years of experience in client-facing roles.
           Prior to completing a Coding Bootcamp with Le Wagon, I was self-taught
-          in
-          <strong> HTML, CSS and Javascript, React & Gatsby</strong>.
+          in <strong> HTML, CSS and Javascript, React & Gatsby</strong>.
         </p>
         <p>
           At Le Wagon, I learned a multitude of
-          <strong> Full Stack</strong> disciplines such as
+          <strong> Full Stack</strong> disciplines such as{" "}
           <strong>
+            {" "}
             Git workflows, Ruby & Ruby on Rails, Databases, Design systems,
             Javascript & working with APIs
           </strong>
           . Working on the course with &quot;buddies&quot; and teammates allowed
-          me to experience working as a team remotely, communicating through
+          me to experience working as a team remotely, communicating through{" "}
           <strong> Slack</strong> and Zoom.
         </p>
         <p>
@@ -38,9 +38,11 @@ const Bio = () => {
           in the field and build a successful career.
         </p>
         <p>
-          I&lsquo;m currently learning <strong>Next.js and Typescript</strong>
-          whilst keeping an eye on <strong> Remix & Svelte</strong> which I feel
-          could be valuable frameworks to have under my belt.
+          I&lsquo;m currently learning <strong>Next.js</strong>{" "}
+          <em>( this site is actually built in Next.js 13.4 🙌 )</em> and{" "}
+          <strong>Typescript</strong> whilst keeping an eye on{" "}
+          <strong> Remix & Svelte</strong> which I feel could be valuable
+          frameworks to have under my belt.
         </p>
       </article>
     </section>

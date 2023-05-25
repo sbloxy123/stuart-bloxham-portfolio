@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Lobster } from "next/font/google";
 import styles from "./Nav.module.css";
 
@@ -58,10 +59,15 @@ const Nav = ({ footerStyle }) => (
           </li>
         </ul>
       </div>
-      {footerStyle ? (
-        <p className={styles.built_with}>Built with Next.js 13</p>
-      ) : (
-        <div></div>
+      {footerStyle && (
+        <div className={styles.built_with}>
+          <p>Built with Next.js 13</p>
+          <Link href="https://github.com/sbloxy123/stuart-bloxham-portfolio/tree/main">
+            <div className={styles.portfolio_code}>
+              <FaGithub /> <p>view code here</p>
+            </div>
+          </Link>
+        </div>
       )}
     </div>
   </nav>

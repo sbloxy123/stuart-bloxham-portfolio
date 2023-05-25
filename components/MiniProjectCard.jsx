@@ -80,7 +80,7 @@ const MiniProjectCard = ({
           ))}
         </ul>
         <div className={styles.link}>
-          <h6>Code & Instructions: </h6>
+          <h6>Code: </h6>
           <Link href={link} target="_blank">
             <div className={styles.git_btn}>
               <FaGithub />

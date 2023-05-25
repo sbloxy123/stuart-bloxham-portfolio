@@ -38,12 +38,12 @@
 }
 .play_btn {
   position: absolute;
-  padding: 16px;
-  background-color: red;
-  border-radius: 16px;
+  padding: 8px;
+  background-color: #e3170a;
+  border-radius: 5px;
   bottom: 40%;
-  left: 40%;
-  width: 100px;
+  left: 45%;
+  width: 50px;
 }
 .exit_btn {
   background-color: lightsalmon;
@@ -58,7 +58,7 @@
 .stack {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  bottom: 0px;
 }
 
 .link > h6,
@@ -90,36 +90,50 @@
     left: 15%;
   }
 }
-
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1000px) {
   .full_screen {
-    left: 10%;
+    left: 8%;
   }
 }
-@media screen and (max-width: 870px) {
+
+@media screen and (max-width: 940px) {
+  .full_screen {
+    left: 5%;
+  }
+}
+@media screen and (max-width: 850px) {
   /* .full_screen {
     left: 10%;
   } */
   .full_screen_video {
-    width: 650px;
+    width: 660px;
     height: fit-content;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   /* .full_screen {
     left: 10%;
   } */
   .full_screen_video {
-    width: 500px;
+    width: 600px;
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 650px) {
+  .full_screen {
+    left: 10%;
+  }
+  .full_screen_video {
+    width: 530px;
     height: fit-content;
   }
 }
 @media screen and (max-width: 570px) {
   .full_screen {
-    left: 5%;
+    left: 0%;
   }
   .full_screen_video {
-    width: 450px;
+    width: 100%;
     height: fit-content;
   }
 }

@@ -37,7 +37,7 @@
       "title": "Bloxy Web Services",
       "screenshot": "/images/bloxy.png",
       "link": "https://www.bloxywebservices.co.uk/",
-      "summary_html": "My personal website which I built before starting at Le Wagon.",
+      "summary_html": "My personal freelance website which I built before starting at Le Wagon.",
       "tech_used": [
         "HTML, CSS, Bootstrap",
         "GatsbyJS (React framework)",
