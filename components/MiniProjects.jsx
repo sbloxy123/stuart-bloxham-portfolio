@@ -4,9 +4,7 @@ import styles from "./miniProjects.module.css";
 
 const MiniProjects = async () => {
   const { miniProjects } = await handler();
-  // const showFullScreenGif = () => {
 
-  // }
   return (
     <div className={styles.section}>
       <section className={`${styles.mini_projects} container`}>

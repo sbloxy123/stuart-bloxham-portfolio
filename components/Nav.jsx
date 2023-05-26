@@ -24,6 +24,8 @@ const Nav = ({ footerStyle }) => (
         <a
           href="./docs/stuart-bloxham-CV-web-developer.pdf"
           target="_blank"
+          rel="noopener noreferrer"
+          locale="false"
           className="d-flex justify-content-between align-items-center mb-2 me-auto"
         >
           <Image
