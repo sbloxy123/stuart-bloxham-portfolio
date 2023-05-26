@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { readFileSync } from "fs";
 import path from "path";
 import { Lobster } from "next/font/google";
 import styles from "./Nav.module.css";
@@ -17,7 +16,6 @@ const handler = async (req, res) => {
 
 const Nav = async ({ footerStyle }) => {
   const data = await handler();
-  // console.log(data);
   return (
     <nav
       className={
@@ -41,7 +39,7 @@ const Nav = async ({ footerStyle }) => {
           >
             <Image
               className={`${styles.cv_icon} me-2`}
-              src="/images/file.png"
+              src="/images/file.svg"
               alt="document icons"
               width={30}
               height={20}
