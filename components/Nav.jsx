@@ -22,7 +22,7 @@ const Nav = ({ footerStyle }) => (
           <h1 className={styles.surname}>Bloxham</h1>
         </div>
         <a
-          href="./docs/stuart-bloxham-CV-web-developer.pdf"
+          href="/docs/stuart-bloxham-CV-web-developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
           locale="false"
