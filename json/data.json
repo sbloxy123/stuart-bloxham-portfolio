@@ -2,6 +2,34 @@
   "projects": [
     {
       "id": 1,
+      "title": "My Portfolio Site (this one!)",
+      "screenshot": "/images/portfolio-screenshot.png",
+      "link": "https://www.stuartbloxham.tech/",
+      "summary_html": "Here I have put into practice some of what I have learned about building a Next.js.",
+      "tech_used": [
+        "HTML, CSS, Bootstrap",
+        "Next.js",
+        "Vanilla Javascript and functional programming",
+        "Interacting with local Json data",
+        "Hosted on Vercel"
+      ],
+      "code_links": [
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/Ry2SsGEyKOzQ5dEVeVZiFq/Portfolio?type=design&node-id=0%3A1&t=7kKqBRdaujf6Fjgb-1"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/stuart-bloxham-portfolio"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://www.stuartbloxham.tech/"
+        }
+      ]
+    },
+    {
+      "id": 2,
       "title": "Materialised",
       "screenshot": "/images/materialised.png",
       "link": "https://www.materialised.shop/",
@@ -33,7 +61,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Bloxy Web Services",
       "screenshot": "/images/bloxy.png",
       "link": "https://www.bloxywebservices.co.uk/",
@@ -62,7 +90,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Bryan Johnston Cichlids",
       "screenshot": "/images/bryan.png",
       "link": "https://suspicious-visvesvaraya-d96526.netlify.app/",
@@ -91,7 +119,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Lace & Blossom",
       "screenshot": "/images/lace.png",
       "link": "https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/",
