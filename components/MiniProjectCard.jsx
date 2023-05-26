@@ -35,7 +35,7 @@ const MiniProjectCard = ({
 
   // create an event listener
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("load", handleResize);
   });
   return (
     <div className={styles.project_card}>
