@@ -18,6 +18,7 @@ const MiniProjectCard = ({
   const [isMobile, setIsMobile] = useState(false);
 
   const handleClick = () => {
+    // console.log(hello);
     setShowGif((prevShowGif) => !prevShowGif);
   };
   const handleClickToEscape = (e, title) => {
@@ -76,7 +77,11 @@ const MiniProjectCard = ({
               ▶
             </button>
           ) : (
-            <button className={styles.exit_btn} onClick={handleClick}>
+            <button
+              className={styles.exit_btn}
+              style={{ zIndex: 2 }}
+              onClick={handleClick}
+            >
               ⏹
             </button>
           )}

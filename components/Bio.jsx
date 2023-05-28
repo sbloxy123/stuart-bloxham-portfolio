@@ -31,18 +31,18 @@ const Bio = () => {
           <strong> Slack</strong> and Zoom.
         </p>
         <p>
-          With a background in sales and dealing with professional clients, I
-          look forward to the transition to becoming an effective developer with
-          a strong understanding of client needs and expectations. With a
-          genuine interest in Web Development, I am excited to continue learning
-          in the field and build a successful career.
-        </p>
-        <p>
           I&lsquo;m currently learning <strong>Next.js</strong>{" "}
           <em>( this site is actually built in Next.js 13.4 🙌 )</em> and{" "}
           <strong>Typescript</strong> whilst keeping an eye on{" "}
           <strong> Remix & Svelte</strong> which I feel could be valuable
           frameworks to have under my belt.
+        </p>
+        <p>
+          With a background in sales and dealing with professional clients, I
+          look forward to the transition to becoming an effective developer with
+          a strong understanding of client needs and expectations. With a
+          genuine interest in Web Development, I am excited to continue learning
+          in the field and build a successful career.
         </p>
       </article>
     </section>
