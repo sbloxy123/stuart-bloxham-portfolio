@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Nav from "@/components/Nav";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -17,6 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-0QWWMD1VHN" />
       <body className={inter.className}>
         <Nav footerStyle={false} />
         {children}
