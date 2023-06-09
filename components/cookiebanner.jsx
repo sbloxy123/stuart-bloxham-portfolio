@@ -28,15 +28,15 @@ export default function CookieBanner() {
     <div
       className={`${
         cookieConsent != null ? "hidden" : "flex"
-      } my-10 mx-auto max-w-max md:max-w-screen-sm
+      } my-10 z-30 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0
                         flex px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4
                          bg-gray-700 rounded-lg shadow`}
     >
       <div className="text-center text-white">
-        <p>
-          We use <span className="font-bold text-white">cookies</span> on our
-          site.
+        <p className="mb-0">
+          This website uses{" "}
+          <span className="font-bold text-white">cookies</span>.
         </p>
       </div>
 
