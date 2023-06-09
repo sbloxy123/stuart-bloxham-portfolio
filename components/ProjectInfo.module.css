@@ -45,7 +45,7 @@
 }
 .project_icons {
   list-style: none;
-  /* width: 50%; */
+
   padding: 0px;
   margin: auto auto 0px auto;
   padding-bottom: 25px;
@@ -53,6 +53,7 @@
 .project_icons > li {
   width: fit-content;
   margin: auto;
+  padding-top: 15px;
 }
 .project_icons > li > a {
   font-size: 2em;
