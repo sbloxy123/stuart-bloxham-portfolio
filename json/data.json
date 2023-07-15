@@ -5,7 +5,7 @@
       "title": "Liquid Coating Experts",
       "screenshot": "/images/LCE-front.png",
       "link": "https://lce-front.vercel.app/",
-      "summary_html": "Ecommerce website built with Next.js and Mudusa(a headless, open-source ecommerce CMS)",
+      "summary_html": "A client's Ecommerce website built with Next.js with Mudusa(headless, open-source ecommerce CMS)",
       "tech_used": [
         "HTML, CSS, Tailwind CSS",
         "Next.js",
@@ -20,6 +20,10 @@
           "url": "https://www.figma.com/file/nweWIA6HVcPdgPRLSCR5KW/Liquid-Coating-Expoerts?type=design&node-id=0%3A1&mode=design&t=rRg5bvSjJKue1Kbb-1"
         },
         {
+          "icon": "FaGithub",
+          "url": "https://github.com/sbloxy123/lce-front"
+        },
+        {
           "icon": "FaGlobe",
           "url": "https://lce-front.vercel.app/"
         }
@@ -30,7 +34,7 @@
       "title": "My Portfolio Site (this one!)",
       "screenshot": "/images/portfolio-screenshot.png",
       "link": "https://www.stuartbloxham.tech/",
-      "summary_html": "Here I have put into practice some of what I have learned about building a Next.js website.",
+      "summary_html": "Right here I've put into practice some of what I've learned about building a Next.js website.",
       "tech_used": [
         "HTML, CSS, Bootstrap",
         "Next.js",
