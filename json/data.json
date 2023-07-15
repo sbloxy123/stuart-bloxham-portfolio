@@ -2,10 +2,35 @@
   "projects": [
     {
       "id": 1,
+      "title": "Liquid Coating Experts",
+      "screenshot": "/images/LCE-front.png",
+      "link": "https://lce-front.vercel.app/",
+      "summary_html": "Ecommerce website built with Next.js and Mudusa(a headless, open-source ecommerce CMS)",
+      "tech_used": [
+        "HTML, CSS, Tailwind CSS",
+        "Next.js",
+        "Vanilla Javascript and functional programming",
+        "Typescript",
+        "Connecting to Headless CMS API",
+        "Frontend hosted on Vercel, Backend hosted on Digital Ocean Spaces"
+      ],
+      "code_links": [
+        {
+          "icon": "FaFigma",
+          "url": "https://www.figma.com/file/nweWIA6HVcPdgPRLSCR5KW/Liquid-Coating-Expoerts?type=design&node-id=0%3A1&mode=design&t=rRg5bvSjJKue1Kbb-1"
+        },
+        {
+          "icon": "FaGlobe",
+          "url": "https://lce-front.vercel.app/"
+        }
+      ]
+    },
+    {
+      "id": 2,
       "title": "My Portfolio Site (this one!)",
       "screenshot": "/images/portfolio-screenshot.png",
       "link": "https://www.stuartbloxham.tech/",
-      "summary_html": "Here I have put into practice some of what I have learned about building a Next.js.",
+      "summary_html": "Here I have put into practice some of what I have learned about building a Next.js website.",
       "tech_used": [
         "HTML, CSS, Bootstrap",
         "Next.js",
@@ -29,7 +54,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Materialised",
       "screenshot": "/images/materialised.png",
       "link": "https://www.materialised.shop/",
@@ -61,7 +86,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Bloxy Web Services",
       "screenshot": "/images/bloxy.png",
       "link": "https://www.bloxywebservices.co.uk/",
@@ -90,11 +115,11 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Bryan Johnston Cichlids",
       "screenshot": "/images/bryan.png",
       "link": "https://suspicious-visvesvaraya-d96526.netlify.app/",
-      "summary_html": "My client, Bryan wanted a place to showcase his unique fish to his customers, alongside his social media accounts and needed to manage the content himself",
+      "summary_html": "Client wanted a place to showcase his unique fish to his customers, alongside his social media accounts and needed a CMS to manage the content himself",
       "tech_used": [
         "HTML, CSS, Bootstrap",
         "GatsbyJS (React framework)",
@@ -119,7 +144,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Lace & Blossom",
       "screenshot": "/images/lace.png",
       "link": "https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/",

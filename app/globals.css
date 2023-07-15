@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .section_heading {
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
   font-weight: 900;
   margin-bottom: 20px;
 }
