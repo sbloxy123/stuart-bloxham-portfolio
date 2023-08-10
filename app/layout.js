@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleAnalytics GA_MEASUREMENT_ID="G-0QWWMD1VHN" />
       <body className={inter.className}>
-        <Nav footerStyle={false} />
+        <Nav />
         {children}
         <Nav footerStyle={true} />
         <CookieBanner />
