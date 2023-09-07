@@ -27,6 +27,7 @@ const LargeProjects = async () => {
             tech_used,
             code_links,
           } = project;
+
           return (
             <ProjectInfo
               key={id}

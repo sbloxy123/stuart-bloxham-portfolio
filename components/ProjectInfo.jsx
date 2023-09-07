@@ -17,6 +17,7 @@ const ProjectInfo = ({
     if (iconString === "FaGithub") return <FaGithub />;
     if (iconString === "FaGlobe") return <FaGlobe />;
   };
+  console.log(link);
 
   return (
     <div className={styles.project_container}>
@@ -51,7 +52,11 @@ const ProjectInfo = ({
             {code_links.map((link) => {
               return (
                 <li key={link.url}>
-                  <Link className={styles.project_link_list} href={link.url}>
+                  <Link
+                    target="_blank"
+                    className={styles.project_link_list}
+                    href={link.url}
+                  >
                     {findIcon(link.icon)}
                   </Link>
                 </li>
